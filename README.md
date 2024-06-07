@@ -1,5 +1,5 @@
 # Introduction:
-This project is a simple calculator application designed to perform basic arithmetic operations. It prompts the user to input two numbers and select an operation choice from addition, subtraction, multiplication, or division. Upon receiving the inputs, the calculator performs the calculation and displays the result to the user.
+This project is a simple calculator which is designed using Tkinter to perform basic arithmetic operations. It prompts the user to input two numbers and select an operation from addition, subtraction, multiplication, or division. Upon receiving the inputs, the calculator performs the calculation and displays the result to the user.
 
 # Features:
 1. User-friendly interface: The calculator provides clear prompts for the user to input numbers and select the desired operation.
