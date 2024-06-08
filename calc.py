@@ -39,11 +39,11 @@ Label(root, text='MINI CALCULATOR', font=("Candara", 24), fg='Dark blue' ).place
 
 Label(root, text='Press \'x\' twice for exponentiation', font=("Candara", 10), fg='Dark blue' ).place(x=403, y=70)
 
-eqn_entry = Entry(root, justify=RIGHT, textvariable=entry_strvar, width=25, font=12, state='disabled')
-eqn_entry.place(x=364, y=100)
+eqn_entry = Entry(root, justify=RIGHT, textvariable=entry_strvar, width=20, font=('arial',18, 'bold'), bd=0, highlightbackground="black", highlightcolor="black", highlightthickness=2,state='disabled')
+eqn_entry.place(x=370, y=104)
 
 # Number Buttons
-Button(root, height=2, width=5, text='7', font=9, bg='White', command=lambda: add_text("7", entry_strvar)).place(x=370, y=206)
+Button(root, height=2, width=5, text='8', font=9, bg='White', command=lambda: add_text('7', entry_strvar)).place(x=370, y=206)
 
 Button(root, height=2, width=5, text='8', font=9, bg='White', command=lambda: add_text('8', entry_strvar)).place(x=437, y=206)
 
@@ -79,10 +79,10 @@ divide.place(x=571, y=206)
 decimal = Button(root, height=2, width=5, text='.', font=9, bg='LightGrey', command=lambda: add_text('.', entry_strvar))
 decimal.place(x=437, y=404)
 
-bracket_open = Button(root, height=2, width=5, text='(', font=9, bg='LightGrey', command=lambda: add_text('.', entry_strvar))
+bracket_open = Button(root, height=2, width=5, text='(', font=9, bg='LightGrey', command=lambda: add_text('(', entry_strvar))
 bracket_open.place(x=437, y=140)
 
-bracket_close = Button(root, height=2, width=5, text=')', font=9, bg='LightGrey', command=lambda: add_text('.', entry_strvar))
+bracket_close = Button(root, height=2, width=5, text=')', font=9, bg='LightGrey', command=lambda: add_text(')', entry_strvar))
 bracket_close.place(x=503, y=140)
 
 # Equal, C and AC buttons
@@ -97,7 +97,7 @@ AC_btn = Button(root, height=2, width=5, text='AC', font=9, bg='Teal', command=l
 AC_btn.place(x=371, y=140)
 
 # Ok Button
-ok_btn = Button(root, height=2, width=23, text='Ok', font=9, bg='Teal', command=lambda: root.destroy())
+ok_btn = Button(root, height=2, width=23, text='OK', font=9, bg='Teal', command=lambda: root.destroy())
 ok_btn.place(x=371, y=470)
 
 # Updating root
