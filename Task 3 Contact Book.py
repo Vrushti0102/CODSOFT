@@ -16,9 +16,8 @@ contactlist = [
     ['Khushi', 'Patel', '5647892989', 'Mine Street'],
     ['Samiksha', 'Sharma', '8968532067', 'Tibica street'],
     ['Jayesh', 'Maheshwari', '9856478545', 'Volvo Street'],
-    ['Ganesh', 'Pawar', '8596741222', 'Osian Street'],
-
-]
+    ['Ganesh', 'Pawar', '8596741222', 'Osian Street']
+    ]
 
 FirstName = StringVar()
 LastName = StringVar()
