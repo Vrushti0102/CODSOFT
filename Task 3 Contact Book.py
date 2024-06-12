@@ -12,10 +12,10 @@ contactlist = [
     ['Gaurav', 'Patil', '5211552228', 'Rabey Street'],
     ['Abhishek', 'Nikam', '7894561498', 'India Street'],
     ['Sakshi', 'Gaikwad', '5874524676', 'Coho Street'],
-    ['Mohit', 'Paul', '5846975546', 'Nica Street'],
-    ['Karan', 'Patel', '5647892989', 'Mine Street'],
-    ['Sam', 'Sharma', '8968532067', 'Tibica street'],
-    ['John', 'Maheshwari', '9856478545', 'Volvo Street'],
+    ['Heli', 'Paul', '5846975546', 'Nica Street'],
+    ['Khushi', 'Patel', '5647892989', 'Mine Street'],
+    ['Samiksha', 'Sharma', '8968532067', 'Tibica street'],
+    ['Jayesh', 'Maheshwari', '9856478545', 'Volvo Street'],
     ['Ganesh', 'Pawar', '8596741222', 'Osian Street'],
 
 ]
