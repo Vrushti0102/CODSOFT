@@ -7,8 +7,6 @@ root = tk.Tk()
 root.title("To Do List")
 root.geometry("500x600+600+200")
 root.resizable(False,False)
-v=tk.BooleanVar()
-ck=tk.Checkbutton(root,)
 
 task_list= []
 
